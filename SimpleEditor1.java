@@ -162,6 +162,7 @@ public class SimpleEditor1 extends JFrame {
 		    return false;
 		}
 	    }
+	    fed.close();
 	    clear();
 	    return true;
 	}
@@ -173,7 +174,6 @@ public class SimpleEditor1 extends JFrame {
 	public void paste() {
 	    tea.paste();
 	}
-
 	
 
 	final JTextArea tea = new JTextArea();
